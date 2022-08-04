@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login | FUAPI</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="app">
+			<header class="top-app-bar">
+				<h1 class="top-app-bar__title">Acesse sua conta</h1>
+			</header>
+			<main>
+				<div class="signup">
+					<form class="form-signup">
+						<label class="form-signup__input">
+							<span class="form-signup__label">CPF</span>
+							<input type="text" 
+							class="form-signup__field" placeholder="045.753.322-21">
+						</label>
+						<label class="form-signup__input">
+							<span class="form-signup__label">Senha</span>
+							<input
+								type="text"
+								class="form-signup__field"
+								placeholder="1234567890"
+							>
+						</label>
+						<div>
+							<a href="/" class="missing">Esqueceu a senha?</a>
+						</div>
+						<div class="div--button">
+							<button class="button button--negative">voltar</button>
+							<button class="form--button">Acessar</button>
+						</div>
+					</form>
+					<div class="new-account">
+						<p>
+							Não tem conta?
+							<a href="" class="open-account">Abra sua conta</a>
+						</p>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<button class="doubt--button">
+					<img src="icon/question-answer-line.png"/>
+				</button>
+				<button class="fab">
+					<img src="icon/question-answer-line.png"/>
+				</button>
+			</footer>
+		</div>
+		<script type="module" src="./src/main.js"></script>
+	</body>
+</html>
